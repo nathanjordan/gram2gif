@@ -1,0 +1,23 @@
+{
+    "name": "gram2gif",
+    "version": "0.0.1",
+    "author": "Nathan Jordan",
+    "description": "A web service that converts instagram videos to animated gifs",
+    "bin": {
+        "webserver": "bin/webserver",
+        "converter": "bin/converter"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nathanjordan/gram2gif"
+    },
+    "dependencies": {
+        "express": "3.4.0",
+        "optimist": "0.6.0",
+        "swig": "1.0.0",
+        "mocha": "1.13.0"
+    },
+    "engines": {
+        "node": "0.10.18"
+    }
+}
