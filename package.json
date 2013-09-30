@@ -13,6 +13,8 @@
     },
     "dependencies": {
         "express": "3.4.0",
+        "underscore": "1.5.2",
+        "async": "0.2.5",
         "optimist": "0.6.0",
         "swig": "1.0.0",
         "mocha": "1.13.0"
