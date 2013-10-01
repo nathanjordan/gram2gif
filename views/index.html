@@ -13,7 +13,7 @@
     <![endif]-->
   </head>
   <body>
-    {% if authenticated %}I'm authenticated{% endif %}
+    {% if authenticated %}I'm authenticated {{ user }} {% endif %}
     <h1>Hello, world!</h1>
     <a href="https://api.instagram.com/oauth/authorize/?client_id=3310ff91e56e44beb1ccc81ac738b30f&redirect_uri=http://gram2gif.com:8080/auth&response_type=code"><img src="/assets/img/instagram_button.png"/></a>
     <script src="/assets/js/lib/jquery.js"></script>
